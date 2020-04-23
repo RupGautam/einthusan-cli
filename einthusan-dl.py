@@ -11,8 +11,8 @@ erase_line = "\x1b[2K"
 
 def api_calls(query_url):
     url = 'https://einthusan-cli.herokuapp.com/api/info?url='
-    # full_url = url + query_url
-    full_url = 'http://0.0.0.0:8000/out.json'
+    full_url = url + query_url
+    # full_url = 'http://0.0.0.0:8000/out.json'
     url = requests.get(full_url).json()['info']['formats'][0]['url']
     return {
         'url': url
