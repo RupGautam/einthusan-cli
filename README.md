@@ -4,7 +4,7 @@ Einthusan CLI tool to extra streaming url.
 ## Config
 Change `URL` in einthusan-dl.py to use your own `API` server. To deploy your own server please follow the instruction below.
 # Usage
-`python einthusan.py "https://einthusan.tv/movie/watch/{movie_id}" "FileName.MP4"
+`python einthusan.py "https://einthusan.tv/movie/watch/{movie_id}" "FileName.MP4"`
 
 ## Deploying to Heroku
 
